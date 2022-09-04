@@ -18,31 +18,90 @@
 
 <body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="57">
     <nav class="navbar navbar-light navbar-expand-lg fixed-top" id="mainNav">
-        <div class="container"><a class="navbar-brand" href="#page-top">Andrea Bombín</a><button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-align-justify"></i></button>
+        <div class="container"><a class="navbar-brand" href="#page-top" style="--bs-primary: #00fb28;--bs-primary-rgb: 0,251,40;color: var(--bs-gray-700);">Andrea Bombín</a><button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-align-justify"></i></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#about">About ME</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#texts">Texts</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio" style="color: var(--bs-gray-dark);">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#texts" style="color: var(--bs-gray-dark);">Texts</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about" style="color: var(--bs-gray-dark);">About ME</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services" style="color: var(--bs-gray-dark);">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact" style="color: var(--bs-gray-dark);">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <header class="text-center text-white d-flex masthead" style="background-image:url('assets/img/header.jpg');">
+    <header class="text-center text-white d-flex masthead">
         <div class="container my-auto">
             <div class="row">
+                <div class="col"><img class="img-fluid" src="assets/img/icono-de-logotipo-símbolo-ab-dos-letras-entrelazadas-vector-b-primera-letra-mayúscula-patrón-alfabeto-vectorial-sab-165635174.jpg" style="text-align: center;margin-top: 20px;"></div>
                 <div class="col-lg-10 mx-auto">
-                    <h1 class="text-uppercase"><strong>andrea bombín rebollo</strong></h1>
-                    <hr>
+                    <h1 class="text-uppercase"><strong style="color: var(--bs-primary);">andrea bombín rebollo</strong></h1>
+                    <hr style="--bs-primary: #40f067;--bs-primary-rgb: 64,240,103;">
+                    <p class="text-faded mb-5" style="color: var(--bs-primary);">This is my personal web page here I will upload my texts, projects and ideas</p>
                 </div>
             </div>
-            <div class="col-lg-8 mx-auto">
-                <p class="text-faded mb-5">This is my personal web page here I will upload my texts, pojects and ideas</p><a class="btn btn-primary btn-xl" role="button" href="#about">Let's continue</a>
-            </div>
+            <div class="col-lg-8 mx-auto"><a class="btn btn-primary btn-xl" role="button" href="#portfolio">Let's continue</a></div>
         </div>
     </header>
+    <section id="portfolio" class="p-0">
+        <div class="container-fluid p-0">
+            <div class="row g-0 popup-gallery">
+                <div class="col-sm-6 col-lg-4"><a class="portfolio-box" href="#english"><img class="img-fluid" src="assets/img/thumbnails/1.jpg">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded"><span>Category</span></div>
+                                <div class="project-name"><span>English texts</span></div>
+                            </div>
+                        </div>
+                    </a></div>
+                <div class="col-sm-6 col-lg-4"><a class="portfolio-box" href="#spanish"><img class="img-fluid" src="assets/img/thumbnails/2.jpg">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded"><span>Category</span></div>
+                                <div class="project-name"><span>Spanish texts</span></div>
+                            </div>
+                        </div>
+                    </a></div>
+                <div class="col-sm-6 col-lg-4"><a class="portfolio-box" href="#basque"><img class="img-fluid" src="assets/img/thumbnails/3.jpg">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded"><span>Category</span></div>
+                                <div class="project-name"><span>Basque texts</span></div>
+                            </div>
+                        </div>
+                    </a></div>
+            </div>
+        </div>
+    </section>
+    <section id="texts">
+        <div class="container" id="english">
+            <h1>English texts</h1>
+            <div class="row">
+                <div class="col">
+                    <h4>English example text title</h4>
+                    <p>Today I have been creating this website&nbsp;</p>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="spanish">
+            <h1>Spanish texts</h1>
+            <div class="row">
+                <div class="col">
+                    <h4>Titulo del primer texto en español</h4>
+                    <p>Hoy he creado esta primera web como ejemplo</p>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="basque">
+            <h1>Basque texts</h1>
+            <div class="row">
+                <div class="col">
+                    <h4>Lehenengo testuaren izenburua</h4>
+                    <p>Gaur, egin dut adibidezko web orrialde hau.</p>
+                </div>
+            </div>
+        </div>
+    </section>
     <section id="about" class="bg-primary">
         <div class="container">
             <div class="row">
@@ -88,65 +147,6 @@
                         <h3 class="mb-3">Made with Love</h3>
                         <p class="text-muted mb-0">You have to make your websites with love these days!</p>
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="portfolio" class="p-0">
-        <div class="container-fluid p-0">
-            <div class="row g-0 popup-gallery">
-                <div class="col-sm-6 col-lg-4"><a class="portfolio-box" href="#english"><img class="img-fluid" src="assets/img/thumbnails/1.jpg">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded"><span>Category</span></div>
-                                <div class="project-name"><span>English texts</span></div>
-                            </div>
-                        </div>
-                    </a></div>
-                <div class="col-sm-6 col-lg-4"><a class="portfolio-box" href="spanish"><img class="img-fluid" src="assets/img/thumbnails/2.jpg">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded"><span>Category</span></div>
-                                <div class="project-name"><span>Spanish texts</span></div>
-                            </div>
-                        </div>
-                    </a></div>
-                <div class="col-sm-6 col-lg-4"><a class="portfolio-box" href="#basque"><img class="img-fluid" src="assets/img/thumbnails/3.jpg">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded"><span>Category</span></div>
-                                <div class="project-name"><span>Basque texts</span></div>
-                            </div>
-                        </div>
-                    </a></div>
-            </div>
-        </div>
-    </section>
-    <section id="texts">
-        <div class="container" id="english">
-            <h1>English texts</h1>
-            <div class="row">
-                <div class="col">
-                    <h4>English example text title</h4>
-                    <p>Today I have been creating this website&nbsp;</p>
-                </div>
-            </div>
-        </div>
-        <div class="container" id="spanish">
-            <h1>Spanish texts</h1>
-            <div class="row">
-                <div class="col">
-                    <h4>Titulo del primer texto en español</h4>
-                    <p>Hoy he creado esta primera web como ejemplo</p>
-                </div>
-            </div>
-        </div>
-        <div class="container" id="basque">
-            <h1>Basque texts</h1>
-            <div class="row">
-                <div class="col">
-                    <h4>Lehenengo testuaren izenburua</h4>
-                    <p>Gaur, egin dut adibidezko web orrialde hau.</p>
                 </div>
             </div>
         </div>
